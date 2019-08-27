@@ -1,0 +1,159 @@
+Notes
+-----
+	Subject Data
+		3765
+		S/E annotations: Correct
+		RFC correct (SFC is close)
+
+		3773
+		S/E annotations: Correct
+		RFC correct (SFC is ~3s off)
+		For grasp: Use SFC
+
+		3798
+		S/E annotations: Correct
+		RFC correct (SFC is close)
+
+		3809
+		S/E annotations: Correct
+		RFC correct (SFC is ~2s off)
+		For grasp: Use SFC (as it is closer and lies within the S/E range)
+
+		3818
+		S/E annotations: Correct
+		RFC correct (SFC is ~2s off)
+		For grasp: Use SFC
+
+		3823
+		S/E annotations: Correct
+		RFC correct (SFC is ~1s off)
+		For grasp: Use SFC (if still out of bounds -> problematic annot)
+
+		3829
+		STAR PERFORMER
+
+		3834
+		ANOTHER STAR
+
+		3835
+		BALANCING ACT: COMPLETELY FUCKED
+
+		3839: EXCLUDED ALREADY
+
+		3848
+		STAR PERFORMER: Use SFC
+
+		3859
+		S/E annotations: Correct
+		RFC correct (SFC close)
+		
+		3864
+		S/E annotations: Correct
+		RFC correct (SFC close)
+
+		3867
+		S/E annotations: End of Blue Cube wrong (affecting Orange Box S)
+		RFC correct (SFC close)
+
+		3868
+		S/E annotations: Correct
+		RFC correct (SFC is ~2s off)
+		For grasp: Use SFC
+		STAR PERFORMER
+
+		3871
+		S/E annotations: Correct
+		RFC correct (STAR PERFORMER)
+		Grasp didn't happen for Airplane
+
+		3872
+		S/E annotations: Correct
+		RFC correct (SFC has huge difference ~15s)
+		For grasp: Use RFC
+
+		3881
+		S/E annotations: Correct
+		RFC correct (SFC is ~1s off)
+		For grasp: Use SFC
+
+		3883
+		S/E annotations: Correct
+		RFC correct (SFC close / ~1s off)
+		STAR PERFORMER
+
+		3884
+		S/E annotations: Correct
+		RFC correct (SFC ~3s off)
+		For grasp: Use SFC
+		STAR PERFORMER
+
+		3894
+		S/E annotations: Correct
+		RFC correct (SFC ~2s off)
+		For grasp: Use SFC
+		Frog: Didn't find the correct toy
+
+		3898
+		S/E annotations: Correct
+		RFC correct (SFC ~3-4s off)
+		For grasp: Use SFC
+		STAR PERFORMER
+
+		3899
+		S/E annotations: Correct
+		RFC correct (SFC ~16s off)
+		For grasp: Use RFC
+		Hippo: Didn't find the toy at all
+
+		3918
+		S/E annotations: Correct
+		RFC correct (SFC ~1s off)
+		For grasp: Use RFC
+		STAR PERFORMER
+
+		3920
+		S/E annotation: Correct
+		RFC correct (SFC ~2s off)
+		For grasp: Use SFC
+		STAR PERFORMER
+
+		3930
+		S/E annotations: Correct
+		RFC correct (SFC ~1s off)
+		For grasp: Use RFC
+		STAR PERFORMER
+
+		3934
+		BALANCING ACT. COMPLETELY FUCKED
+
+		3936 (Fix the grasp file using SFC to get corr RFC frame)
+		Frog: Erroneous S/E
+		S/E annotations: Correct (Except Frog)
+		RFC correct (SFC off by variable time)
+		For grasp: Use SFC (Comes after RFC. Use RFC after ^ fixes)
+
+		3941 (Fix grasp file using SFC to get corr RFC frame)
+		S/E annotations: Correct
+		RFC correct (SFC off by variable time)
+		For grasp: Use SFC (Comes after RFC. USe RFC after ^ fixes)
+
+		3944
+		(Similar problems as 3941)
+
+		3947
+		Similar problems as 3944
+
+		3950
+		STAR PERFORMER
+
+		3952
+		STAR PERFORMER
+
+		3954
+		STAR PERFORMER (One trial data missing in Kinect)
+
+		3991, 3998
+		STARs
+
+		3999
+

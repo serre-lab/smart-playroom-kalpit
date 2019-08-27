@@ -1,0 +1,374 @@
+# Issues in recordings: 3805 (Forgets shown object), 3867 (Jitters/Green frames in videos), 3947 (The kid goes to keep the object back)
+# Check trial start/end: 3822(Elephant)
+Subject ID, Search Object
+3773, Blue Cube
+3773, Red Ball
+3773, Yellow Pyramid
+3773, Orange Box
+3773, Lion
+3773, Boat
+3773, Elephant
+3773, Book
+3773, Car
+3773, Hippo
+3773, Frog
+3773, Pooh
+3798, Duck
+3798, Boat
+3805, Blue Cube
+3805, Car
+3805, Pooh
+3805, Duck
+3809, Green Cone
+3809, Yellow Pyramid
+3809, Blue Cube
+3809, Red Ball
+3809, Orange Box
+3809, Dinosaur
+3809, Cow
+3809, Lion
+3809, Duck
+3809, Book
+3809, Hippo
+3809, Airplane
+3818, Orange Box
+3818, Pink Cylinder
+3818, Red Ball
+3818, Hippo
+3818, Frog
+3818, Duck
+3818, Pooh
+3818, Car
+3822, Orange Box
+3822, Green Cone
+3822, Yellow Pyramid
+3822, Blue Cube
+3822, Hippo
+3822, Car
+3822, Elephant
+3822, Frog
+3822, Lion
+3822, Duck
+3823, Orange Box
+3823, Red Ball
+3823, Yellow Pyramid
+3823, Pink Cylinder
+3823, Blue Cube
+3823, Elephant
+3823, Boat
+3823, Cow
+3823, Frog
+3823, Lion
+3823, Duck
+3823, Hippo
+3829, Blue Cube
+3829, Red Ball
+3829, Duck
+3829, Frog
+3829, Boat
+3829, Dinosaur
+3829, Elephant
+3829, Car
+3829, Book
+3834, Red Ball
+3834, Lion
+3834, Car
+3834, Pooh
+3834, Book
+3834, Duck
+3835, Blue Cube
+3835, Red Ball
+3835, Orange Box
+3835, Yellow Pyramid
+3835, Elephant
+3835, Book
+3835, Frog
+3835, Hippo
+3835, Dinosaur
+3835, Lion
+3835, Boat
+3835, Car
+3835, Airplane
+3835, Duck
+3835, Pooh
+3839, Blue Cube
+3839, Yellow Pyramid
+3839, Car
+3839, Hippo
+3839, Pooh
+3839, Book
+3848, Yellow Pyramid
+3848, Green Cone
+3848, Dinosaur
+3848, Boat
+3859, Pink Cylinder
+3859, Red Ball
+3859, Yellow Pyramid
+3859, Car
+3859, Elephant
+3859, Book
+3859, Pooh
+3859, Lion
+3859, Boat
+3859, Frog
+3859, Cow
+3859, Duck
+3864, Blue Cube
+3864, Orange Box
+3864, Red Ball
+3864, Yellow Pyramid
+3864, Lion
+3864, Dinosaur
+3864, Pooh
+3864, Book
+3864, Duck
+3867, Blue Cube
+3867, Orange Box
+3867, Pink Cylinder
+3867, Red Ball
+3867, Yellow Pyramid
+3867, Duck
+3867, Lion
+3867, Dinosaur
+3867, Pooh
+3867, Hippo
+3867, Frog
+3867, Elephant
+3867, Car
+3867, Book
+3867, Boat
+3868, Red Ball
+3868, Pink Cylinder
+3868, Yellow Pyramid
+3868, Orange Box
+3868, Airplane
+3868, Boat
+3868, Frog
+3868, Cow
+3868, Book
+3868, Dinosaur
+3870, Yellow Pyramid
+3870, Red Ball
+3870, Dinosaur
+3870, Cow
+3870, Elephant
+3870, Duck
+3870, Book
+3871, Pink Cylinder
+3871, Blue Cube
+3871, Book
+3871, Boat
+3871, Car
+3872, Pink Cylinder
+3872, Orange Box
+3872, Yellow Pyramid
+3872, Green Cone
+3872, Red Ball
+3872, Blue Cube
+3872, Duck
+3872, Cow
+3872, Lion
+3872, Frog
+3872, Dinosaur
+3872, Hippo
+3872, Elephant
+3872, Boat
+3872, Car
+3872, Airplane
+3872, Pooh
+3881, Blue Cube
+3881, Green Cone
+3881, Pink Cylinder
+3881, Red Ball
+3881, Orange Box
+3881, Yellow Pyramid
+3881, Frog
+3881, Car
+3881, Cow
+3881, Pooh
+3881, Airplane
+3881, Dinosaur
+3881, Elephant
+3881, Hippo
+3881, Book
+3881, Boat
+3881, Lion
+3881, Duck
+3883, Pink Cylinder
+3883, Orange Box
+3883, Dinosaur
+3883, Airplane
+3883, Cow
+3884, Blue Cube
+3884, Red Ball
+3884, Yellow Pyramid
+3884, Green Cone
+3884, Orange Box
+3884, Pink Cylinder
+3884, Frog
+3884, Cow
+3884, Elephant
+3884, Airplane
+3884, Hippo
+3884, Pooh
+3884, Lion
+3884, Duck
+3894, Pink Cylinder
+3894, Green Cone
+3894, Blue Cube
+3894, Red Ball
+3894, Orange Box
+3894, Yellow Pyramid
+3894, Pooh
+3894, Hippo
+3894, Dinosaur
+3894, Book
+3894, Car
+3894, Elephant
+3894, Cow
+3894, Duck
+3894, Airplane
+3894, Boat
+3898, Orange Box
+3898, Book
+3898, Pooh
+3898, Car
+3899, Red Ball
+3899, Cow
+3899, Elephant
+3899, Pooh
+3899, Book
+3918, Red Ball
+3918, Orange Box
+3918, Elephant
+3918, Airplane
+3918, Pooh
+3918, Cow
+3918, Lion
+3920, Yellow Pyramid
+3920, Pink Cylinder
+3920, Red Ball
+3920, Orange Box
+3920, Green Cone
+3920, Blue Cube
+3920, Pooh
+3920, Book
+3920, Duck
+3920, Airplane
+3920, Frog
+3920, Dinosaur
+3920, Cow
+3920, Elephant
+3920, Hippo
+3927, Pink Cylinder
+3927, Red Ball
+3927, Yellow Pyramid
+3927, Orange Box
+3927, Blue Cube
+3927, Green Cone
+3927, Cow
+3927, Lion
+3927, Hippo
+3927, Car
+3927, Frog
+3927, Book
+3927, Dinosaur
+3930, Pink Cylinder
+3930, Green Cone
+3930, BLue Cube
+3930, Orange Box
+3930, Yellow Pyramid
+3930, Red Ball
+3930, Lion
+3930, Book
+3930, Hippo
+3930, Elephant
+3930, Boat
+3930, Duck
+3934, Red Ball
+3934, Green Cone
+3934, Orange Box
+3934, Pink Cylinder
+3934, Elephant
+3934, Pooh
+3934, Car
+3936, Pink Cylinder
+3936, Red Ball
+3936, Orange Box
+3936, Yellow Pyramid
+3936, Dinosaur
+3936, Duck
+3936, Cow
+3936, Airplane
+3936, Boat
+3936, Book
+3936, Car
+3936, Hippo
+3939, Pink Cylinder
+3939, Book
+3939, Car
+3941, Green Cone
+3941, Blue Cube
+3941, Orange Box
+3941, Pink Cylinder
+3941, Duck
+3941, Airplane
+3941, Frog
+3941, Elephant
+3941, Boat
+3941, Dinosaur
+3941, Pooh
+3941, Cow
+3941, Book
+3944, Blue Cube
+3944, Red Ball
+3944, Orange Box
+3944, Yellow Pyramid
+3944, Boat
+3944, Lion
+3944, Hippo
+3944, Book
+3944, Duck
+3944, Frog
+3944, Elephant
+3947, Book
+3950, Red Ball
+3950, Orange Box
+3950, Yellow Pyramid
+3950, Blue Cube
+3950, Green Cone
+3950, Elephant
+3950, Cow
+3950, Duck
+3950, Book
+3952, Orange Box
+3952, Pink Cylinder
+3952, Hippo
+3952, Boat
+3952, Car
+3954, Orange Box
+3954, Duck
+3954, Frog
+3991, Orange Box
+3991, Green Cone
+3991, Red Ball
+3991, Yellow Pyramid
+3991, Duck
+3991, Elephant
+3991, Airplane
+3991, Car
+3991, Dinosaur
+3991, Cow
+3991, Book
+3991, Hippo
+3991, Frog
+3991, Lion
+3998, Yellow Pyramid
+3998, Blue Cube
+3998, Pink Cylinder
+3998, Red Ball
+3998, Book
+3998, Elephant
+3998, Cow
+3998, Frog
+3998, Car

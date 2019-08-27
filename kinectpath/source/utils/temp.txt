@@ -1,0 +1,296 @@
+Notes
+-----
+    Notes on each subject's data:
+		3765
+		Trial S/E annotations only for 15 / 18 trials
+		S/E missing: Boat, Hippo, Duck
+		Grasp time missing: Raptor
+		3D trajectory data for 14 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+		
+		3773
+		Trial S/E annotations present for all 18 trials
+		S/E missing: None
+		Grasp time missing: Green Cone
+		3D trajectory data for 17 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+		
+		3798
+		Trial S/E annotations only for 16 / 18 trials
+		S/E missing: Hippo, Lion
+		Grasp time missing: None
+		3D trajectory data for 16 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+		
+		3809
+		Trial S/E annotations only for 17 / 18 trials
+		S/E missing: Frog
+		Grasp time missing: None
+		3D trajectory data for 9 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+		Reason for missing trajectory data: Grasp times out of bounds for
+		Pink Cylinder, Cow, Airplane, Blue Cube, Car, Yellow Pyramid, Book
+		and Elephant
+		
+		3818
+		Trial S/E annotations only for 16 / 18 trials
+		S/E missing: Blue Cube, Car (Due to placard not being seen)
+		Grasp time missing: None
+		3D trajectory data for 9 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+		Reason for missing trajectory data: (1) Pink Cylinder, Red Ball,
+		Yellow Pyramid and Orange Box have missing data in Kinect,
+		(2) Grasp times out of bounds for Book, Raptor and Elephant
+
+		3823
+		Trial S/E annotations for all 18 trials
+		S/E missing: None
+		Grasp time missing: Boat
+		3D trajectory data for 16 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+		Reason for missing trajectory data: Grasp times out of bounds for
+		Book
+
+		3829
+		Trial S/E annotations for all 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 18 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+
+		3834
+		Trial S/E annotations for 17 / 18 trials
+		S/E missing: Airplane
+		Grasp time missing: None
+		3D trajectory data for 17 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+
+		3835
+		Trial S/E annotations for all 18 trials
+		S/E missing: None
+		Grasp time missing: Green Cone
+		3D trajectory data for 0 trials extracted
+		Reason for missing trajectory data: Except Green Cone, all grasp
+		times out of bounds
+
+		3839
+		Trial S/E annotations for all 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 18 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+
+		3848
+		Trial S/E annotations for all 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 18 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+
+		3859
+		Trial S/E annotations for all 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 15 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+		Reason for missing trajectory data: Pink Cylinder, Red Ball and
+		Green Cone have missing data in Kinect
+
+		3864
+		Trial S/E annotations for 17 / 18 trials
+		S/E missing: Airplane
+		Grasp time missing: None
+		3D trajectory data for 14 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+		Reason for missing trajectory data: Red Ball, Book and Elephant
+		have missing data in Kinect
+
+		3867
+		Trial S/E annotations for 17 / 18 trials
+		S/E missing: Cow
+		Grasp time missing: None
+		3D trajectory data for 16 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+		Reason for missing trajectory data: Grasp time out of bounds for
+		Orange Box
+
+		3868
+		Trial S/E annotations for all 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 18 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+
+		3871
+		Trial S/E annotations for all 18 trials
+		S/E missing: None
+		Grasp time missing: Airplane
+		3D trajectory data for 17 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+
+		3872
+		Trial S/E annotations for all 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 0 trials extracted
+		Reason for missing trajectory data: All trials have missing data
+		in Kinect
+
+		3881
+		Trial S/E annotations for all 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 0 trials extracted
+		Reason for missing trajectory data: All trials have missing data
+		in Kinect
+
+		3883
+		Trial S/E annotations for all 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 18 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+		
+		3884
+		Trial S/E annotations for all 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 0 trials extracted
+		Reason for missing trajectory data: All trials have missing data
+		in Kinect
+
+		3894
+		Trial S/E annotations for 18 trials
+		S/E missing: None
+		Grasp time missing: Frog
+		3D trajectory data for 17 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+
+		3898
+		Trial S/E annotations for 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 18 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+
+		3899
+		Trial S/E annotations for 17 / 18 trials
+		S/E missing: Duck
+		Grasp time missing: Hippo
+		3D trajectory data for 15 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+
+		3918
+		Trial S/E annotations for 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 18 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+
+		3920
+		Trial S/E annotations for 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 18 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+
+		3930
+		Trial S/E annotations for 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 18 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+
+		3934
+		Trial S/E annotations for 18 trials
+		S/E missing: None
+		Grasp time missing: Yellow Pyramid
+		3D trajectory data for 7 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+		Reason for missing trajectory data: Grasp time out of bounds for
+		Cow, Red Ball, Pink Cylinder, Boat, Orange Box, Car, Pooh, Green
+		Cone, Raptor, Elephant
+
+		3936
+		Trial S/E annotations for 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 6 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+		Reason for missing trajectory data: Grasp time out of bounds for
+		Cow, Airplane, Boat, Car, Pooh, Lion, Yellow Pyramid, Hippo, Book,
+		Orange Box, Frog, Raptor
+
+		3941
+		Trial S/E annotations for 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 1 trial extracted
+		Remarks on trajectory data: (Good / Bad)
+		Reason for missing trajectory data: Grasp time out of bounds for
+		all trials except Hippo
+
+		3944
+		Trial S/E annotations for 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 1 trial extracted
+		Remarks on trajectory data: (Good / Bad)
+		Reason for missing trajectory data: Grasp time out of bounds for
+		all trials except Pink Cylinder
+
+		3947
+		Trial S/E annotations for 18 trials
+		S/E missing: None
+		Grasp time missing: Hippo, Lion, Yellow Pyramid
+		3D trajectory data for 3 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+		Reason for missing trajectory data: Grasp time out of bounds for
+		Pink Cylinder, Frog, Blue Cube, Airplane, Cow, Book, Duck, Boat,
+		Orange Box, Pooh, Green Cone, Raptor
+
+		3950
+		Trial S/E annotations for 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 18 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+
+		3952
+		Trial S/E annotations for 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 0 trials extracted
+		Reason for missing trajectory data: All trials have missing data
+		in Kinect
+
+		3954
+		Trial S/E annotations for 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 17 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+		Reason for missing trajectory data: Missing data in Kinect for
+		Duck
+
+		3991
+		Trial S/E annotations for 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 18 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+
+		3998
+		Trial S/E annotations for 18 trials
+		S/E missing: None
+		Grasp time missing: None
+		3D trajectory data for 18 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+
+		3999
+		Trial S/E annotations for 17 / 18 trials
+		S/E missing: Car
+		Grasp time missing: None
+		3D trajectory data for 17 trials extracted
+		Remarks on trajectory data: (Good / Bad)
+
