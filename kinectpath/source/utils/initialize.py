@@ -11,6 +11,8 @@ participating in the study.
 
 Notes
 -----
+    (Everything noted here was before myself and Lakshmi went over all the data
+    and fixed erroneous annotations / added missing annotations, wherever possible)
     Notes on each subject's data:
 		3765
 		Trial S/E annotations only for 15 / 18 trials

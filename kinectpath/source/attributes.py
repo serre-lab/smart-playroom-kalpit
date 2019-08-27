@@ -18,7 +18,6 @@ from utils.misc import reject_outliers
 
 def write_num_turns_ref_near_far(num_turns_filepath='./results/per_trial_num_turns_ref_near_far.csv'):
     with open(num_turns_filepath, 'w') as f:
-        #f.write("Subject ID, avg(turns for ref), avg(turns for near), avg(turns for far), avg(turns)\n")
         f.write("Subject ID, trial_name, #turns, ref/near/far\n")
         for sub in subs:
             ttype= trial_types[sub] - 1
@@ -38,18 +37,16 @@ def write_num_turns_ref_near_far(num_turns_filepath='./results/per_trial_num_tur
                     far_val = nturns_sub[triplet_name[2]]
                     f.write(",".join([str(sub), str(triplet_name[2]), str(far_val), "far"]) + "\n")
                     far.append(nturns_sub[triplet_name[2]])
+            # Average stats if you need to use them
             avg_ref = sum(ref) * 1. / len(ref)
             avg_near = sum(near) * 1. / len(near)
             avg_far = sum(far) * 1. / len(far)
             avg_turns = (sum(ref) + sum(near) + sum(far)) * 1. / (len(ref) + len(near) + len(far))
             avgs = np.around([avg_ref, avg_near, avg_far, avg_turns], 3)
-            #f.write(",".join([str(sub), str(avgs[0]), str(avgs[1]), str(avgs[2]), str(avgs[3])]) + "\n")
-
     return
 
 def write_pathlengths_ref_near_far(num_turns_filepath='./results/per_trial_pathlengths_ref_near_far.csv'):
     with open(num_turns_filepath, 'w') as f:
-        #f.write("Subject ID, avg(turns for ref), avg(turns for near), avg(turns for far), avg(turns)\n")
         f.write("Subject ID, trial_name, pathlength, ref/near/far\n")
         for sub in subs:
             ttype = trial_types[sub] - 1
@@ -69,13 +66,12 @@ def write_pathlengths_ref_near_far(num_turns_filepath='./results/per_trial_pathl
                     far_val = plens_sub[triplet_name[2]]
                     f.write(",".join([str(sub), str(triplet_name[2]), str(far_val), "far"]) + "\n")
                     far.append(plens_sub[triplet_name[2]])
+            # Average stats if you need to use them
             avg_ref = sum(ref) * 1. / len(ref)
             avg_near = sum(near) * 1. / len(near)
             avg_far = sum(far) * 1. / len(far)
             avg_turns = (sum(ref) + sum(near) + sum(far)) * 1. / (len(ref) + len(near) + len(far))
             avgs = np.around([avg_ref, avg_near, avg_far, avg_turns], 3)
-            #f.write(",".join([str(sub), str(avgs[0]), str(avgs[1]), str(avgs[2]), str(avgs[3])]) + "\n")
-
     return
 
 def write_trial_proportions_file(trial_proportions_filepath='./results/trial_proportions.csv'):
@@ -216,11 +212,14 @@ def plot_path_trajectories_trial(path_trajs_plotpath='./results/per_trial_path_t
 
                 dfTurnPoints[name][sub] = len(turnIdx)/trTrackTime
 
+            # '*' is the start and '^' is the end of the paths
             for j, pts in enumerate(scatter_st_en):
                 if j not in skips:
                     ax.plot(pts[0], pts[1], '*', c=colorDict[k][j], label='')
                     ax.plot(pts[2], pts[3], '^', c=colorDict[k][j], label='')
-
+            
+            # 'o' plots the average start point calculated from the population of all start points for this subject
+            # Write out the attraction values for this trial for the subject
             if k in attraction_metric[sub].keys():
                 ax.plot(mux, muz, 'o', c='black')
                 ax.text(1.90, 0.05, s=str(np.float32(attraction_metric[sub][k][0])), fontsize='small', color='green')
@@ -366,6 +365,13 @@ def plot_path_trajectories(path_trajs_plotpath='./results/per_subject_path_traje
                         import ipdb; ipdb.set_trace()
                         plt.close(fig)
                     '''
+                # Our attraction metric is the value of normalized signed difference of a quantity calulated wrt straight-line paths to near and far objects.
+                # The quantity is the sum of distance of each point on the chosen search trajectory from the chosen straight-line path. Hence, for near
+                # search trajectory, the two quantities are d(near_from_near) and d(near_from_ref) and for ref search trajectory the quantities are 
+                # d(ref_from_near) and d(ref_from_ref). Now the attraction metric is:
+                # A(near) = (d(near_from_near) - d(near_from_ref)) / num_points_in_near and A(ref) = (d(ref_from_near) - d(ref_from_ref)) / num_points_in_ref
+                # As the value is proportional to distance, the attraction is "towards straight-line near path" if the value is negative. Otherwise, the attraction
+                # is "towards straight-line ref path".
                 if triplet_name[0] not in attraction_metric[sub].keys():
                     # Near - Ref
                     val_near = (dist_2 - dist_1) * 1.0 / len(sx)
